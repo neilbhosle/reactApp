@@ -3,6 +3,8 @@ import Hello from './components/Hello';
 import Food from './components/Food';
 import Address from './components/Address';
 import Fruits from './components/Fruits';
+import Cars from './components/Cars';
+import Countries from './components/Countries';
 
 function App() {
   const addressData = {
@@ -27,7 +29,9 @@ function App() {
 
       <p>Hello World!!</p> */}
       <Fruits />
-    </div>
+      <Cars />  
+      <Countries />
+      </div>
   );
 }
 
