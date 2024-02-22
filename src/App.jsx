@@ -5,6 +5,7 @@ import Address from './components/Address';
 import Fruits from './components/Fruits';
 import Cars from './components/Cars';
 import Countries from './components/Countries';
+import ConditionalRender from './components/ConditionalRender';
 
 function App() {
   const addressData = {
@@ -28,9 +29,10 @@ function App() {
       <Food dish="Bhole chature" rating="5" />
 
       <p>Hello World!!</p> */}
-      <Fruits />
+      {/* <Fruits />
       <Cars />  
-      <Countries />
+      <Countries /> */}
+      <ConditionalRender />
       </div>
   );
 }
