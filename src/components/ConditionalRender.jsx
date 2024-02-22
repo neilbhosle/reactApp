@@ -3,13 +3,14 @@ import Food from "./Food";
 import Countries from "./Countries";
 
 export default function ConditionalRender() {
-
-    return(
-        <div>
-            <Cars />
-            <Food dish="Pav Bhaji" rating="5.1" />
-            <Countries />
-            
-        </div>
-    )
+    const condition = "cars";
+    
+    if (condition === "cars") {
+        return <Cars />;
+    } else if (condition === "food") {
+        return <Food />;
+    } else if (condition === "countries") {
+        return <Countries />;
+    }
+    
 }
