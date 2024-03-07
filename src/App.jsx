@@ -6,6 +6,10 @@ import Fruits from './components/Fruits';
 import Cars from './components/Cars';
 import Countries from './components/Countries';
 import ConditionalRender from './components/ConditionalRender';
+import TernaryConditionalRender from './components/TernaryConditionalRender';
+import Counter from './components/Counter';
+import Forms from './components/Forms';
+import NewForm from './components/NewForm';
 
 function App() {
   const addressData = {
@@ -33,6 +37,10 @@ function App() {
       <Cars />  
       <Countries /> */}
       <ConditionalRender />
+      <TernaryConditionalRender />
+      <Counter />
+      <Forms />
+      <NewForm />
       </div>
   );
 }
